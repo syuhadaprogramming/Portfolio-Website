@@ -1,9 +1,19 @@
 .container {
   width: 80%;
   font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
 }
 
-.container nav {
+.container nav ul {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(4, 80px);
+}
+
+.container nav ul li {
+  list-style: none;
+}
+
+.container nav ul li a {
+  text-decoration: none;
+  color: #303030;
 }
