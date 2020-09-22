@@ -28,6 +28,13 @@
   font-weight: bold;
 }
 
+.container nav ul li a:hover{
+  background-color: orange;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
 /* content */
 .container .content-container {
   display: grid;
