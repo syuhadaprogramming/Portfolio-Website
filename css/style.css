@@ -32,7 +32,7 @@
 .container .content-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .container .content-container .text-content p {
@@ -41,12 +41,12 @@
 
 .container .content-container .text-content a {
   text-decoration: none;
-  padding: 8px 25px;
+  padding: 10px 30px;
   background-color: #3598db;
   color: white;
   border-radius: 9px;
   margin-top: 180px;
-  box-shadow: 1px 2px px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
 }
 
 .container .content-container .image-content {
@@ -64,11 +64,15 @@
   justify-content: center;
 }
 
-.container .content-container .image-content .icon ul {
+.container .content-container .image-content .icon ul{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 13px;
-
+  place-items: center;
+  /* gap: 13px; */
   list-style: none;
+}
+
+.container .content-container .image-content .icon ul li a {
   color: black;
+  font-size: 12px;
 }
